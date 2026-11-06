@@ -1,77 +1,64 @@
-Smart Plant Pot 🌱
+# 🌱 Smart Plant Pot
 
-An IoT-based plant monitoring system built with ESP32-S3.
+**An IoT-based smart plant monitoring system using ESP32-S3.**
 
-Overview
+## 📌 Overview
 
-Smart Plant Pot is a mini IoT project designed to monitor environmental conditions and soil moisture to support plant care.
+Smart Plant Pot is a personal IoT project designed to monitor environmental conditions and soil moisture.
 
 The system uses an ESP32-S3 to collect sensor data, display measurements on an OLED screen, and provide a web dashboard accessible through Wi-Fi.
 
-Features
+## ✨ Features
 
-Monitor ambient temperature and humidity using DHT11.
+- Temperature monitoring
+- Ambient humidity monitoring
+- Soil moisture monitoring
+- Real-time data display on an OLED screen
+- Local web dashboard hosted by ESP32-S3
 
-Measure soil moisture using an analog soil moisture sensor.
+## 🛠️ Hardware Components
 
-Display sensor readings on an OLED screen.
+| Component | Purpose |
+|---|---|
+| ESP32-S3 | Main microcontroller |
+| DHT11 | Temperature and humidity monitoring |
+| Soil Moisture Sensor | Soil moisture measurement |
+| SSD1306 OLED | Display sensor readings |
+| Breadboard | Circuit prototyping |
 
-Host a local web dashboard using ESP32 Wi-Fi Access Point.
+## 💻 Technologies
 
-View real-time sensor data through a browser.
+- C++
+- Arduino IDE
+- ESP32 Wi-Fi
+- HTTP Web Server
+- I2C Communication
+- Analog-to-Digital Conversion (ADC)
 
-Hardware Components
+## 📂 Project Structure
 
-ESP32-S3
-
-DHT11 temperature and humidity sensor
-
-Analog soil moisture sensor
-
-0.96-inch OLED display (SSD1306)
-
-Breadboard and jumper wires
-
-Software & Technologies
-
-Arduino IDE
-
-C++
-
-ESP32 Wi-Fi
-
-HTTP Web Server
-
-I2C
-
-Analog-to-Digital Conversion (ADC)
-
-Project Structure
-
+```text
 smart-plant-pot/
 ├── src/
 │   └── smart_plant_pot.ino
 ├── docs/
-│   ├── circuit-diagram.png
-│   └── project-photos/
-├── README.md
-├── LICENSE
-└── .gitignore
+│   └── circuit-diagram.md
+└── README.md
+```
 
-Current Status
+## 🚧 Development Status
 
-Project under development.
+**Status: Under Development**
 
-Future Improvements
+Currently working on hardware integration, sensor testing, and system improvements.
 
-Calibrate soil moisture readings.
+## 🔮 Future Improvements
 
-Improve the web dashboard interface.
+- Calibrate soil moisture sensor readings
+- Improve the web dashboard interface
+- Add plant condition indicators
+- Implement sensor data logging
 
-Add plant condition indicators.
-
-Implement data logging and historical monitoring.
-
-Author
+## 👨‍💻 Author
 
 Developed as a personal IoT learning project.
